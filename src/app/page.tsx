@@ -1,4 +1,5 @@
 
+import  HeroSection  from "@/components/ui/HeroSection";
 import { div } from "motion/react-client";
 import Image from "next/image";
 
@@ -8,6 +9,7 @@ export default function Home() {
       <h1 className="text-2xl text-center">
         Music 
       </h1>
+      <HeroSection />
     </main>
   );
 }
