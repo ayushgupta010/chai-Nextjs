@@ -1,4 +1,5 @@
 
+import FeaturedCourses from "@/components/featured-courses";
 import  HeroSection  from "@/components/ui/HeroSection";
 import { div } from "motion/react-client";
 import Image from "next/image";
@@ -10,6 +11,7 @@ export default function Home() {
         Music 
       </h1>
       <HeroSection />
+      <FeaturedCourses/>
     </main>
   );
 }
