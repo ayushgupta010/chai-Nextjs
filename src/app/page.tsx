@@ -1,6 +1,7 @@
 
 import FeaturedCourses from "@/components/featured-courses";
 import  HeroSection  from "@/components/ui/HeroSection";
+import WhyChooseUs from "@/components/whyChooseUs";
 import { div } from "motion/react-client";
 import Image from "next/image";
 
@@ -12,6 +13,7 @@ export default function Home() {
       </h1>
       <HeroSection />
       <FeaturedCourses/>
+      <WhyChooseUs/>
     </main>
   );
 }
